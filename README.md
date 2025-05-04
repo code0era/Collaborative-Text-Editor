@@ -13,10 +13,13 @@ This project is built using **React**, **Quill**, **Socket.IO**, and **Node.js**
 ### 1. **Real-Time Collaboration**
    - Multiple users can edit the same document simultaneously.
    - Changes made by one user are instantly reflected to others.
+   - ![image](https://github.com/user-attachments/assets/99755b0b-726b-43bf-b068-6c458683cce4)
+
 
 ### 2. **Visible Cursors for All Users**
    - Each user has a unique cursor that is visible to all other users in the document.
    - Users can identify each other's actions based on the color and cursor position.
+![image](https://github.com/user-attachments/assets/2331ac4e-2340-42f5-a390-8a189b0969ed)
 
 ### 3. **User Identification**
    - Each user is identified by a unique **UUID**, which is used to distinguish between different users' edits and cursor positions.
@@ -27,6 +30,8 @@ This project is built using **React**, **Quill**, **Socket.IO**, and **Node.js**
 
 ### 5. **Dark Mode**
    - Users can toggle dark mode for a more comfortable viewing experience during extended editing sessions.
+   - ![image](https://github.com/user-attachments/assets/640badf5-f1e9-44a6-aa13-f462dd115c9f)
+
 
 ### 6. **Automatic Document Saving**
    - Document changes are saved automatically to the backend server every 2 seconds, ensuring no progress is lost in case of a refresh or disconnect.
